@@ -23,9 +23,10 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-a5^r*u9wh)@g)a3j7txdayhr62b-w00@%@g+2jprd7bsp399t7'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['8000-darkkstaarr-irfan-vzuczjz6wyp.ws-us108.gitpod.io']
+ALLOWED_HOSTS = ['irfanspace.vercel.app']
+ALLOWED_HOSTS = ['*']
 
 SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
 
